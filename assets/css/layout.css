@@ -28,21 +28,19 @@ main {
 }
 
 header {
-  flex: 1 1 100vw;
+  flex: 1 1 300vw;
+  font-family: "Google Sans",Arial,Helvetica,sans-serif;
 }
 
 header #logo {
-  display: flex;
-
-  flex: 0 1 200px;
-
-  background: black;
-  font-size: large;
-  color: white;
-
+  display: flex;  
+  color: black;
   justify-content: center;
-
   align-items: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 22px;
+ 
 }
 
 #openMenu,
@@ -136,6 +134,7 @@ a {
 }
 .titulo-secao {
   font-size: 30px;
+  font-family: "Google Sans",Arial,Helvetica,sans-serif;
   margin: 20px 15px 10px 25px ;
   text-align: left;
 }
@@ -226,4 +225,16 @@ a {
 	
 		order: 4;
 	}
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.intem-menu:hover{
+  color: red;
 }
