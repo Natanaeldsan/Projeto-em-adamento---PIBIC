@@ -6,6 +6,8 @@
   padding: 0;
 
   box-sizing: border-box;
+
+  background: #f9fcff;
 }
 body {
   display: flex;
@@ -20,8 +22,6 @@ body {
 header,
 nav,
 main {
-  background: #f9fcff;
-
   display: flex;
 
   margin: 3px;
@@ -112,11 +112,11 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(100% / 5 - 20px);
-    margin: 10px;
+    width: 280px;
+    height: 360px;
+    margin: 15px;
     padding: 20px;
     box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
     background-color: white;
     transition: all 0.5s ease;
 }
@@ -135,8 +135,8 @@ a {
     margin-bottom: 0px;
 }
 .titulo-secao {
-  font-size: 2vw;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin: 20px 15px 10px 25px ;
   text-align: left;
 }
 
