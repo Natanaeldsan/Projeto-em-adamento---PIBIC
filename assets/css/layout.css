@@ -209,6 +209,23 @@ a {
     font-size: 18px;
     line-height: normal;
   }
+  .textoeimagens {
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:80%;
+    margin: auto;
+  }
+  .texto_sobre {
+    padding: 30px 40px;
+    font-size: 1 rem;
+    font-weight: 400px;
+  }
+  #imagemqs {
+    width: 40%;
+    margin: auto;
+  }
 }
 
 .footer {
@@ -221,4 +238,20 @@ a {
 
 .intem-menu:hover{
   color: red;
+}
+.textoeimagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:80%;
+  margin: auto;
+}
+
+.texto_sobre {
+  padding: 30px 40px;
+  font-size: 2rem;
+  font-weight: 400px;
+}
+#imagemqs {
+  width: 50%;
 }
